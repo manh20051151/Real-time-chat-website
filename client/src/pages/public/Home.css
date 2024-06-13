@@ -1,0 +1,159 @@
+
+.containerr {
+  display: flex;
+  height: 100vh;
+
+
+}
+
+.left-sidebar {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65px; Width of the sidebar */
+  background-color: #1e90ff;
+  /* padding-bottom: 0px; */
+}
+
+.avatar {
+  margin-top: 30px;
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%;
+  background-color: #ccc; 
+}
+.text{
+  color: #5e5e5e;
+  font-size: small;
+  margin-right: 10px;
+}
+.add{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+.add:hover{
+  background-color: #c4c4c4;
+}
+.chat-button {
+  /* margin-top: 30px; */
+  cursor: pointer;
+  width: 65px; 
+  height: 65px; 
+  background-color: #1e90ff; 
+}
+
+.contacts-button {
+  /* margin-top: 0px; */
+  cursor: pointer;
+  width: 65px; 
+  height: 65px; 
+  background-color: #1e90ff; 
+}
+
+.add-friend {
+  margin-top: 0px;
+  cursor: pointer;
+  width: 30px; 
+  height: 30px; 
+}
+.create-group {
+  margin-top: 0px;
+  cursor: pointer;
+  width: 30px; 
+  height: 30px; 
+}
+
+.chat-setting {
+  margin-top: 30px;
+  cursor: pointer;
+  width: 65px; 
+  height: 65px; 
+  background-color: #1e90ff; 
+}
+
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  border-right: 1px solid #c4c4c4; 
+}
+
+.top-middle {
+  flex: 0.1;
+  border-bottom: 1px solid #c4c4c4; 
+}
+
+.bottom-middle {
+   flex: 0.9; 
+}
+
+.right-content {
+  flex: 7.5;
+  border-left: 1px solid #c4c4c4; 
+}
+
+@media not (-webkit-fill-available) { 
+  .right-content {
+    width: calc(100% - 1px);
+  }
+
+}
+.search-bar{
+ 
+  padding: 15px;
+  display: flex;
+}
+.timkiem {
+  width: 65%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+.iconchatdanhba{
+  width: 35px;
+  height: 35px;
+  padding: 15px; 
+  justify-content: center; 
+  align-items: center;
+  background-color: #1e90ff;
+}
+.iconsetting{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e90ff;
+}
+.iconsetting:hover{
+  background-color: #0061c2;
+}
+.iconchatdanhba:hover{
+  background-color: #0061c2;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+}
